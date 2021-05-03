@@ -70,15 +70,35 @@ main {
 }
 
 .blog-heading {
-  border-bottom: 8px solid #7f7f7;
+  border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
+}
+
+.blog-box {
+  padding-top: 50px;
 }
 
 .blog-item {
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-text {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
 }
 
 .category {
@@ -88,6 +108,11 @@ main {
   border-radius: 3px;
   color: #fff;
   font-size: 11px;
+}
+
+.blog-image {
+  width: 0 auto;
+  height: 180px;
 }
 
 .sidebar {
